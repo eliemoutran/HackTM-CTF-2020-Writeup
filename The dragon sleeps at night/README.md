@@ -167,7 +167,14 @@ You woke up well rested.
 ```
 Went back to the storage, picked up my sword and went to fight the dragon but got this weird message saying that he's awake and that he immediately killed me:
 ```
-here
+-------------------------------
+Storage for up to (1) sword.
+Please note: Swords degrade by 1 level for each day they are left in storage.
+-------------------------------
+Storage contains a sword level 6
+Do you want to take the sword out? (y/n) > y
+Receiving level 6 sword.
+-------------------------------
 ```
 
 Went back and redid all the steps above and then worked a few hours in order to pass time till I get to the night(to have the dragon sleeping), fought the dragon, and finally got the flag! :
