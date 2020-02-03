@@ -83,7 +83,7 @@ Boss wants to know how many hours you worked: > 1000000
 Only 3 characters allowed
 ```
 
-Now keeping on submitting $999 is not logical so I tested sending `9e9` which is equivalent to 9* 10^9 and it worked! :
+Now keeping on submitting $999 sounded illogical so I tested `9e9` as an input, which is equivalent to 9* 10^9 and it worked! :
 ```
 -------------------------------
 Going to work...
@@ -136,7 +136,7 @@ I was told level 5 would be enough!
 ...as the dragon obliterates you with a hurricane of fire.
 Game over
 ```
-Then I remembered that there is 2 more functionalities `Go home` and `Storage`, now if you go to the `Storage` you can leave your weapon there as shown below:
+Then I remembered that there are 2 more functionalities `Go home` and `Storage`, now if you go to the `Storage` you can leave your weapon there as shown below:
 ```
 -------------------------------
 Storage for up to (1) sword.
@@ -147,8 +147,8 @@ Do you want to deposit your sword? (y/n) > y
 Deposited sword level 5
 -------------------------------
 ```
-Now what intrigued me was the note : `Please note: Swords degrade by 1 level for each day they are left in storage.`, so I immediately thought of the `Go home` feature which is made for resting(technically you can input the number of days of sleep that you want). 
-Went there and got the idea of testing negative values and it worked perfectly! I have a level 6 sword now :
+Now what intrigued me was the note : `Please note: Swords degrade by 1 level for each day they are left in storage.`, so I immediately thought of the `Go home` functionality which was made for resting(technically you can input the number of days of sleep you want). 
+Went there and got the idea of testing negative values and it worked perfectly! I have a level 6 sword now in my storage :
 ```
 -------------------------------
 1: Go to store
@@ -168,12 +168,28 @@ You woke up well rested.
 Went back to the storage, picked up my sword and went to fight the dragon but got this weird message saying that he's awake and that he immediately killed me:
 ```
 -------------------------------
-Storage for up to (1) sword.
-Please note: Swords degrade by 1 level for each day they are left in storage.
 -------------------------------
 Storage contains a sword level 6
 Do you want to take the sword out? (y/n) > y
 Receiving level 6 sword.
+-------------------------------
+Day: -1
+Time: 12:00
+Your balance: $8000000000.0
+Your sword: 6
+-------------------------------
+1: Go to store
+2: Go to work
+3: Go to dragons cave
+4: Go home
+5: Storage
+> 3
+-------------------------------
+Welcome to the dragon's cave
+-------------------------------
+The dragon is awake.
+He sees you first and instantly kills you with a large fireball.
+Game over
 -------------------------------
 ```
 
